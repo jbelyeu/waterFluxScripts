@@ -8,7 +8,8 @@ import sys
 import Tree
 #import Day
 
-def readTreeTypesFile(name):
+#def readTreeTypesFile(name):
+def readTreeTypesFile(tree_types_file):
 	tree_types = {}
 
 #	tree_types_file = open(name, 'r')
@@ -29,7 +30,9 @@ def readTreeTypesFile(name):
 
 	return tree_types
 
-def readFluxFile(name,tree_types):
+#def readFluxFile(name,tree_types):
+def readFluxFile(flux_file, tree_types):
+
 #	flux_file = open(name, 'r')
 
 	trees = {}
@@ -49,7 +52,9 @@ def readFluxFile(name,tree_types):
 
 	return trees
 
-def readRadiusFile(name):
+#def readRadiusFile(name):
+def readRadiusFile(radius_file):
+
 #	radius_file = open(name, 'r')
 
 	conductive = {}
